@@ -1,5 +1,5 @@
 <%-- 
-    Document        : personalInfo
+    Document        : employerPage
     Created on      : Jan 5, 2017, 12:48:45 AM
     Author          : Simmigon
     Refernce Source : https://www.youtube.com/watch?v=bKEvGXTwg4E&index=1&list=PLzj7TwUeMQ3hrmEpbse1aBHJg-KZtvN--
@@ -76,17 +76,17 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Sign-up</div>
                     <div class="panel-body">
-                        <form  action="personalInfo.jsp"  method="POST" class="form-horizontal">
+                        <form  action="requestPage.jsp"  method="POST" class="form-horizontal">
                             <form class="" role="form">
-                                Address:
+                                Employer:
                                 <div class="form-group">
                                     <input type="text" placeholder="First" class="form-control">
                                 </div>
-                                Address 2:
+                                Employer Address:
                                 <div class="form-group">
                                     <input type="text" placeholder="Last" class="form-control">
                                 </div>
-                                Address 2:
+                                City:
                                 <div class="form-group">
                                     <input type="text" placeholder="Last" class="form-control">
                                 </div>
@@ -95,6 +95,14 @@
                                     <input type="" placeholder="###-###-####" class="form-control">
                                 </div>
                                 Zip:
+                                <div class="form-group">
+                                    <input type="number" placeholder="###-###-####" class="form-control">
+                                </div>
+                                Position:
+                                <div class="form-group">
+                                    <input type="text" placeholder="###-###-####" class="form-control">
+                                </div>
+                                Income:
                                 <div class="form-group">
                                     <input type="number" placeholder="###-###-####" class="form-control">
                                 </div>

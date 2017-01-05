@@ -1,7 +1,9 @@
 <%-- 
-    Document   : index
-    Created on : Dec 27, 2016, 11:38:42 PM
-    Author     : Simmigon Flagg
+    Document        : index
+    Created on      : Dec 27, 2016, 11:38:42 PM
+    Author          : Simmigon Flagg
+    Refernce Source : https://www.youtube.com/watch?v=bKEvGXTwg4E&index=1&list=PLzj7TwUeMQ3hrmEpbse1aBHJg-KZtvN--
+                    : http://www.w3schools.com/bootstrap/default.asp
 --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!doctype html>

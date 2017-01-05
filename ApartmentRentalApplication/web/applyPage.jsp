@@ -3,6 +3,7 @@
     Created on      : Jan 5, 2017, 12:21:14 AM
     Author          : Simmigon
     Refernce Source : https://www.youtube.com/watch?v=bKEvGXTwg4E&index=1&list=PLzj7TwUeMQ3hrmEpbse1aBHJg-KZtvN--
+                    : http://www.w3schools.com/bootstrap/default.asp
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -50,7 +51,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">LUX Properties</a>
+                <a class="navbar-brand" href="#">LUX Name & Phone</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <form class="navbar-form navbar-right" role="form">
@@ -74,7 +75,7 @@
             <!-- Flagg -->  
             <div class="col-md-4">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Sign-up</div>
+                    <div class="panel-heading">Name & Phone</div>
                     <div class="panel-body">
                         <form  action="personalInfo.jsp"  method="POST" class="form-horizontal">
                             <form class="" role="form">

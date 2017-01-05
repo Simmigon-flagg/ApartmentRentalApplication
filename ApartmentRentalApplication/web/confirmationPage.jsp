@@ -1,6 +1,6 @@
 <%-- 
-    Document        : employerPage
-    Created on      : Jan 5, 2017, 12:48:45 AM
+    Document        : confirmationPage
+    Created on      : Jan 5, 2017, 3:07:13 AM
     Author          : Simmigon
     Refernce Source : https://www.youtube.com/watch?v=bKEvGXTwg4E&index=1&list=PLzj7TwUeMQ3hrmEpbse1aBHJg-KZtvN--
                     : http://www.w3schools.com/bootstrap/default.asp
@@ -51,10 +51,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">LUX Employee Info</a>
+                <a class="navbar-brand" href="#">LUX Confirmation</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-                <form class="navbar-form navbar-right" role="form">
 
                 </form>
 
@@ -70,48 +69,31 @@
 
             </div>
             <div class="col-md-4">  
-                Sign-up today to Apply for your new apartment!
+                <p>All Done. You will hear back from us in 5 to 10 business days.</p>
+                <br>
+                <p>If you provided an email address you can check you application status by be signing in.</p>
+
+
             </div>
             <!-- Flagg -->  
             <div class="col-md-4">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Employee Information</div>
-                    <div class="panel-body">
-                        <form  action="occupants.jsp"  method="POST" class="form-horizontal">
-                            <form class="" role="form">
-                                Employer:
-                                <div class="form-group">
-                                    <input type="text" placeholder="First" class="form-control">
-                                </div>
-                                Employer Address:
-                                <div class="form-group">
-                                    <input type="text" placeholder="Last" class="form-control">
-                                </div>
-                                City:
-                                <div class="form-group">
-                                    <input type="text" placeholder="Last" class="form-control">
-                                </div>
-                                State:
-                                <div class="form-group">
-                                    <input type="" placeholder="###-###-####" class="form-control">
-                                </div>
-                                Zip:
-                                <div class="form-group">
-                                    <input type="number" placeholder="###-###-####" class="form-control">
-                                </div>
-                                Position:
-                                <div class="form-group">
-                                    <input type="text" placeholder="###-###-####" class="form-control">
-                                </div>
-                                Income:
-                                <div class="form-group">
-                                    <input type="number" placeholder="###-###-####" class="form-control">
-                                </div>
+                    <div class="panel-heading">Thank You</div>
+                    <div class="panel-body">                       
+                        <form class="navbar-form navbar-right" role="form" method="POST"  class="form-horizontal">
+                            Email:
+                            <div class="form-group">
+                                <input type="email" placeholder="Email" class="form-control">
+                            </div>
+                            <br>
+                            Password:
+                            <div class="form-group">
+                                <input type="password" placeholder="Password" class="form-control">
+                            </div>
+                            <button type="submit" class="btn btn-success">Sign in</button>
+                            <a href="index.jsp" type="submit" class="btn btn-success">I'm Done</a>
+                            <!-- Flagg -->                                                                                  
 
-                                <button type="submit" class="btn btn-success">Sign in</button>
-                                <!-- Flagg -->                            
-
-                            </form>
                     </div>
 
                 </div>

@@ -1,9 +1,9 @@
 <%-- 
-    Document        : employerPage
+    Document        : vehicle   
     Created on      : Jan 5, 2017, 12:48:45 AM
     Author          : Simmigon
     Refernce Source : https://www.youtube.com/watch?v=bKEvGXTwg4E&index=1&list=PLzj7TwUeMQ3hrmEpbse1aBHJg-KZtvN--
-                    : http://www.w3schools.com/bootstrap/default.asp
+                      http://www.w3schools.com/bootstrap/default.asp
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -51,7 +51,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">LUX Employee Info</a>
+                <a class="navbar-brand" href="#">LUX Vehicle-up</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <form class="navbar-form navbar-right" role="form">
@@ -75,37 +75,33 @@
             <!-- Flagg -->  
             <div class="col-md-4">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Employee Information</div>
+                    <div class="panel-heading">Vehicle-up</div>
                     <div class="panel-body">
-                        <form  action="occupants.jsp"  method="POST" class="form-horizontal">
+                        <form  action="employerPage.jsp"  method="POST" class="form-horizontal">
                             <form class="" role="form">
-                                Employer:
+                                Auto Make:
+                                <div class="form-group">
+                                    <input type="number" placeholder="Last" class="form-control">
+                                </div>
+                                Model:
+                                <div class="form-group">
+                                    <input type="number" placeholder="MM/DD/YYYY" class="form-control">
+                                </div>
+                                Color:
                                 <div class="form-group">
                                     <input type="text" placeholder="First" class="form-control">
                                 </div>
-                                Employer Address:
+                                Year:
                                 <div class="form-group">
                                     <input type="text" placeholder="Last" class="form-control">
                                 </div>
-                                City:
+                                License Plate Tag:
                                 <div class="form-group">
                                     <input type="text" placeholder="Last" class="form-control">
                                 </div>
                                 State:
                                 <div class="form-group">
                                     <input type="" placeholder="###-###-####" class="form-control">
-                                </div>
-                                Zip:
-                                <div class="form-group">
-                                    <input type="number" placeholder="###-###-####" class="form-control">
-                                </div>
-                                Position:
-                                <div class="form-group">
-                                    <input type="text" placeholder="###-###-####" class="form-control">
-                                </div>
-                                Income:
-                                <div class="form-group">
-                                    <input type="number" placeholder="###-###-####" class="form-control">
                                 </div>
 
                                 <button type="submit" class="btn btn-success">Sign in</button>

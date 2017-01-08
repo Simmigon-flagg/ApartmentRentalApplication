@@ -92,12 +92,9 @@
                                     <input type="text" placeholder="First" class="form-control">
                                 </div>
 
-
-
-
                                 <button type="submit" class="btn btn-success">Sign in</button>
+                                <a href="occupants.jsp" class="btn btn-success"> << Back</a>
                                 <!-- Flagg -->                            
-
                             </form>
                     </div>
 

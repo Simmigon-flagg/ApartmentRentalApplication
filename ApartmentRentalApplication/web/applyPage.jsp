@@ -54,7 +54,18 @@
                 <a class="navbar-brand" href="#">LUX Name & Phone</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-                <form class="navbar-form navbar-right" role="form">
+                <form class="navbar-form navbar-right" role="form" action="login.jsp" method="POST">
+                    <div class="form-group">
+                        <input type="text" placeholder="Email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Password" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-success">Sign in</button>
+                    <!-- Flagg -->
+
+                    <a class="btn btn-success" href="applyPage.jsp"> Apply Now!</a>
+
 
                 </form>
 
@@ -97,6 +108,7 @@
                                 </div>
 
                                 <button type="submit" class="btn btn-success">Sign in</button>
+                                <button type="reset" class="btn btn-success">Cancel</button>
                                 <!-- Flagg -->                            
 
                             </form>

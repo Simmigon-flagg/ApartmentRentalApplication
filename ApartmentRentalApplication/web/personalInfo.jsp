@@ -109,6 +109,7 @@
                                 </div>
 
                                 <button type="submit" class="btn btn-success">Sign in</button>
+                                <a href="applyPage.jsp" class="btn btn-success"> << Back</a>
                                 <!-- Flagg -->                            
 
                             </form>

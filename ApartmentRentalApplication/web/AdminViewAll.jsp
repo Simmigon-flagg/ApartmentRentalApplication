@@ -15,7 +15,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Update Tenant</title>
+        <title>SB Admin - Bootstrap Admin Template</title>
 
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -225,7 +225,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <h1 class="page-header">
-                                Update Tenant
+                                View All Admin
                             </h1>
 
 
@@ -255,7 +255,7 @@
                             <hr>
                         </div> 
                     </div>
-                    <!-- /.row 2 -->
+                    <!-- /.row 2 --> 
 
                     <div class="row">
                         <div class="col-lg-6">

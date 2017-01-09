@@ -15,7 +15,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Update Tenant</title>
+        <title>SB Admin - Bootstrap Admin Template</title>
 
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -225,7 +225,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <h1 class="page-header">
-                                Update Tenant
+                                Add New Admin
                             </h1>
 
 
@@ -239,23 +239,22 @@
                                 </li>
                             </ol>
                             <!-- https://v4-alpha.getbootstrap.com/components/forms/ -->
-                            <form class="form-inline">
-                                <label class="sr-only" for="inlineFormInput">Name</label>
-                                <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="First Last Name">
-                                or
-                                <label class="sr-only" for="inlineFormInputGroup">Username</label>
-                                <div class="input-group mb-2 mr-sm-2 mb-sm-0">   
-                                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Apartment Number">
-                                </div>
-
-                                <button type="submit" class="btn btn-primary"> Search </button>
-                                <button type="submit" class="btn btn-accept">Submit Button</button>
-                                <button type="reset" class="btn btn-default">Reset Button</button>
-                            </form>
-                            <hr>
                         </div> 
                     </div>
                     <!-- /.row 2 -->
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Admin</span>
+
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Client</span>
+
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Tenant</span>
+                    </label>
 
                     <div class="row">
                         <div class="col-lg-6">

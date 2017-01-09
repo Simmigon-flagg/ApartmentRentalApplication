@@ -256,19 +256,6 @@
                         </div> 
                     </div>
                     <!-- /.row 2 -->
-                    <label class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input">
-                        <span class="custom-control-indicator"></span>
-                        <span class="custom-control-description">Admin</span>
-
-                        <input type="checkbox" class="custom-control-input">
-                        <span class="custom-control-indicator"></span>
-                        <span class="custom-control-description">Client</span>
-
-                        <input type="checkbox" class="custom-control-input">
-                        <span class="custom-control-indicator"></span>
-                        <span class="custom-control-description">Tenant</span>
-                    </label>
 
                     <div class="row">
                         <div class="col-lg-6">

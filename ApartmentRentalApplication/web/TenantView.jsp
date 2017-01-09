@@ -187,7 +187,7 @@
                                     <a href="ClientAddNew.jsp"> Add New Client</a>
                                 </li>
                                 <li>
-                                    <a href="UpdateClient.jsp"> Update Client</a>
+                                    <a href="ClientUpdate.jsp"> Update Client</a>
                                 </li>
 
                             </ul>

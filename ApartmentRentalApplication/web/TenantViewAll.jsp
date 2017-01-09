@@ -179,14 +179,14 @@
                             <a href="javascript:;" data-toggle="collapse" data-target="#client"><i class="fa fa-fw fa-arrows-v"></i> Client <i class="fa fa-fw fa-caret-down"></i></a>
                             <ul id="client" class="collapse">
                                 <li>
-                                    <a href="Client/ViewTenant.jsp">View Client</a>
+                                    <a href="ClientView.jsp">View Client</a>
                                     <!-- set inactive -->
                                 </li>
                                 <li>
-                                    <a href="Client/AddNewTenant.jsp"> Add New Client</a>
+                                    <a href="ClientAddNew.jsp"> Add New Client</a>
                                 </li>
                                 <li>
-                                    <a href="Client/UpdateTenant.jsp"> Update Client</a>
+                                    <a href="ClientUpdate.jsp"> Update Client</a>
                                 </li>
 
                             </ul>
@@ -196,19 +196,19 @@
                             <a href="javascript:;" data-toggle="collapse" data-target="#admin"><i class="fa fa-fw fa-arrows-v"></i> Admin <i class="fa fa-fw fa-caret-down"></i></a>
                             <ul id="admin" class="collapse">
                                 <li>
-                                    <a href="Admin/ViewAdmin.jsp">View Admin</a>
+                                    <a href="">View Admin</a>
                                     <!-- set inactive -->
                                 </li>
                                 <li>
-                                    <a href="Admin/AddNewAdmin"> Add New Admin</a>
+                                    <a href=""> Add New Admin</a>
                                 </li>
                                 <li>
-                                    <a href="Admin/UpdateAdmin.jsp"> Update Admin</a>
+                                    <a href=""> Update Admin</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="active">
-                            <a href="Tenant/TenantView.jsp"><i class="fa fa-fw fa-table"></i> Tables</a>
+                            <a href="TenantView.jsp"><i class="fa fa-fw fa-table"></i> Tables</a>
                         </li>
 
                         <li>
@@ -228,7 +228,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <h1 class="page-header">
-                                Tables
+                                View All Tenants
                             </h1>
                             <ol class="breadcrumb">
                                 <li>

@@ -1,6 +1,6 @@
 <%-- 
-    Document   : AddNewTenant
-    Created on : Jan 9, 2017, 8:54:15 AM
+    Document   : TenantView
+    Created on : Jan 9, 2017, 8:40:31 AM    
     Author     : Simmigon Flagg
 --%>
 <!DOCTYPE html>
@@ -162,14 +162,14 @@
                             <a href="javascript:;" data-toggle="collapse" data-target="#tenant"><i class="fa fa-fw fa-arrows-v"></i> Tenant <i class="fa fa-fw fa-caret-down"></i></a>
                             <ul id="tenant" class="collapse">
                                 <li>
-                                    <a href="Tenant/ViewTenant.jsp">View Tenant</a>
+                                    <a href="TenantView.jsp">View Tenant</a>
                                     <!-- set inactive -->
                                 </li>
                                 <li>
-                                    <a href="Tenant/AddNewTenant.jsp"> Add New Tenant</a>
+                                    <a href="TenantAddNew.jsp"> Add New Tenant</a>
                                 </li>
                                 <li>
-                                    <a href="Tenant/UpdateTenant.jsp"> Update Tenant</a>
+                                    <a href="TenantUpdate.jsp"> Update Tenant</a>
                                 </li>
 
                             </ul>

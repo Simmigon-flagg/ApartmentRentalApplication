@@ -1,8 +1,9 @@
 <%-- 
-    Document   : ViewTenant
+    Document   : AddNewTenant
     Created on : Jan 9, 2017, 8:54:15 AM
     Author     : Simmigon Flagg
 --%>
+<!-- https://v4-alpha.getbootstrap.com/components/forms/ -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -162,14 +163,14 @@
                             <a href="javascript:;" data-toggle="collapse" data-target="#tenant"><i class="fa fa-fw fa-arrows-v"></i> Tenant <i class="fa fa-fw fa-caret-down"></i></a>
                             <ul id="tenant" class="collapse">
                                 <li>
-                                    <a href="Tenant/ViewTenant.jsp">View Tenant</a>
+                                    <a href="TenantView.jsp">View Tenant</a>
                                     <!-- set inactive -->
                                 </li>
                                 <li>
-                                    <a href="Tenant/AddNewTenant.jsp"> Add New Tenant</a>
+                                    <a href="TenantAddNew.jsp"> Add New Tenant</a>
                                 </li>
                                 <li>
-                                    <a href="Tenant/UpdateTenant.jsp"> Update Tenant</a>
+                                    <a href="TenantUpdate.jsp"> Update Tenant</a>
                                 </li>
 
                             </ul>
@@ -179,14 +180,14 @@
                             <a href="javascript:;" data-toggle="collapse" data-target="#client"><i class="fa fa-fw fa-arrows-v"></i> Client <i class="fa fa-fw fa-caret-down"></i></a>
                             <ul id="client" class="collapse">
                                 <li>
-                                    <a href="Client/ViewTenant.jsp">View Client</a>
+                                    <a href="ClientView.jsp">View Client</a>
                                     <!-- set inactive -->
                                 </li>
                                 <li>
-                                    <a href="Client/AddNewTenant.jsp"> Add New Client</a>
+                                    <a href="ClientAddNew.jsp"> Add New Client</a>
                                 </li>
                                 <li>
-                                    <a href="Client/UpdateTenant.jsp"> Update Client</a>
+                                    <a href="UpdateClient.jsp"> Update Client</a>
                                 </li>
 
                             </ul>
@@ -196,23 +197,19 @@
                             <a href="javascript:;" data-toggle="collapse" data-target="#admin"><i class="fa fa-fw fa-arrows-v"></i> Admin <i class="fa fa-fw fa-caret-down"></i></a>
                             <ul id="admin" class="collapse">
                                 <li>
-                                    <a href="Admin/ViewAdmin.jsp">View Admin</a>
+                                    <a href="AdminView.jsp">View Admin</a>
                                     <!-- set inactive -->
                                 </li>
                                 <li>
-                                    <a href="Admin/AddNewAdmin"> Add New Admin</a>
+                                    <a href="AdminAddNew.jsp"> Add New Admin</a>
                                 </li>
                                 <li>
-                                    <a href="Admin/UpdateAdmin.jsp"> Update Admin</a>
+                                    <a href="AdminUpdate.jsp"> Update Admin</a>
                                 </li>
                             </ul>
                         </li>
-                        <li class="active">
-                            <a href="Tenant/TenantView.jsp"><i class="fa fa-fw fa-table"></i> Tables</a>
-                        </li>
-
                         <li>
-                            <a href="blank-page.html"><i class="fa fa-fw fa-file"></i> Blank Page</a>
+                            <a href="TenantViewAll.jsp"><i class="fa fa-fw fa-table"></i> Tables</a>
                         </li>
 
                     </ul>
@@ -228,75 +225,150 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <h1 class="page-header">
-                                Tables
+                                View Single Tenant
                             </h1>
+
+
                             <ol class="breadcrumb">
                                 <li>
                                     <i class="fa fa-dashboard"></i>  <a href="DashBoard.jsp">Dashboard</a>
                                 </li>
+
                                 <li class="active">
-                                    <i class="fa fa-table"></i> Tables
+                                    <i class="fa fa-edit"></i> Forms
                                 </li>
                             </ol>
-                        </div>
-                    </div>
-                    <!-- /.row -->
+                            <!-- https://v4-alpha.getbootstrap.com/components/forms/ -->
+                            <form class="form-inline">
+                                <label class="sr-only" for="inlineFormInput">Name</label>
+                                <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="First Last Name">
+                                or
+                                <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                                <div class="input-group mb-2 mr-sm-2 mb-sm-0">   
+                                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Apartment Number">
+                                </div>
 
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <h2>Bordered with Striped Rows</h2>
-                            <div class="table-responsive">
-                                <table class="table table-bordered table-hover table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th>id</th>
-                                            <th>First</th>
-                                            <th>Last</th>
-                                            <th>Date Of Birth</th>
-                                            <th>Pass</th>
-                                            <th>Admin</th>
-                                            <th>Client</th>
-                                            <th>Tenant</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                    <c:forEach>
-                                        <tr>
-                                            <td>/index.html</td>
-                                            <td>1265</td>
-                                            <td>32.3%</td>
-                                            <td>$321.33</td>
-                                        </tr>                           
-                                        </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-
-                        </div>
+                                <button type="submit" class="btn btn-primary"> Search </button>
+                                <button type="submit" class="btn btn-accept">Submit Button</button>
+                                <button type="reset" class="btn btn-default">Reset Button</button>
+                            </form>
+                            <hr>
+                        </div> 
                     </div>
-                    <!-- /.row -->
+                    <!-- /.row 2 -->
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Admin</span>
+
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Client</span>
+
+                        <input type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Tenant</span>
+                    </label>
 
                     <div class="row">
                         <div class="col-lg-6">
 
+                            <form role="form">
+                                <h3>Tenant:</h3>
+
+                                <div class="form-group">
+                                    <label>Text Input</label>
+                                    <input class="form-control">
+                                    <p class="help-block">Example block-level help text here.</p>
+                                </div>							
+
+                            </form>
+
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6">					  
+
+                            <h3>Employee:</h3>
+
+                            <form role="form">
+
+                                <div class="form-group">
+                                    <label>Text Input</label>
+                                    <input class="form-control">
+                                    <p class="help-block">Example block-level help text here.</p>
+                                </div>
+
+                            </form>  
 
                         </div>
                     </div>
+                    occupants
+                    <div class="row">
+                        <div class="col-lg-6">
+
+                            <form role="form">
+                                <h3>vehicle</h3>
+
+                                <div class="form-group">
+                                    <label>Text Input</label>
+                                    <input class="form-control">
+                                    <p class="help-block">Example block-level help text here.</p>
+                                </div>							
+
+                            </form>
+
+                        </div>
+                        <div class="col-lg-6">					  
+
+                            <h3>Spouse Info:</h3>
+
+                            <form role="form">
+
+                                <div class="form-group">
+                                    <label>Text Input</label>
+                                    <input class="form-control">
+                                    <p class="help-block">Example block-level help text here.</p>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+
                     <!-- /.row -->
 
                     <div class="row">
                         <div class="col-lg-6">
 
+                            <form role="form">
+                                <h3>Occupant(s): </h3>
+
+                                <div class="form-group">
+                                    <label>Text Input</label>
+                                    <input class="form-control">
+                                    <p class="help-block">Example block-level help text here.</p>
+                                </div>							
+
+                            </form>
+
                         </div>
-                        <div class="col-lg-6">
-                            <h2>Bootstrap Docs</h2>
-                            <p>For complete documentation, please visit <a target="_blank" href="http://getbootstrap.com/css/#tables">Bootstrap's Tables Documentation</a>.</p>
+                        <div class="col-lg-6">					  
+
+                            <h3>Notify me:</h3>
+
+                            <form role="form">
+
+                                <div class="form-group">
+                                    <label>Text Input</label>
+                                    <input class="form-control">
+                                    <p class="help-block">Example block-level help text here.</p>
+                                </div>
+
+                            </form>
+
+                            <p>For complete documentation, please visit <a href="http://getbootstrap.com/css/#forms">Bootstrap's Form Documentation</a>.</p>
+
                         </div>
                     </div>
-                    <!-- /.row -->
 
                 </div>
                 <!-- /.container-fluid -->
